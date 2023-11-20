@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #E6F0FF;
+    padding: 60px 160px;
+    gap: 30px;
+}
+
+.header1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header3{
+    display: flex;
+    gap: 20px;
+}
+
+.header4 button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #b1b1b1;
+    cursor: pointer;
+    transform: all .30s ease;
+}
+
+.header4 button:hover{
+    font-size: 15px;
+}
+
+.header4 button:active{
+    font-size: 13px;
+    color: #fff;
+    background-color: black;
+    margin-right: 5px;
+}
+
+.header5{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header6{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.header6 p{
+    color: #687690;
+}
+
+.header6 h1{
+    color: #000336;
+    font-size: 60px;
+}
+
+.header6 button{
+    width: 150px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: 1px solid #b1b1b1;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: all .30s ease;
+}
+
+.header6 button:hover{
+    font-size: 15px;
+}
+
+.header6 button:active{
+    font-size: 13px;
+    color: #fff;
+    background-color: #000;
+    margin-right: 5px;
+}
+
+/* Head */
+
+.head{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px 160px;
+}
+
+.head1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.head2 p{
+    color: #7D8589;
+}
+
+.head3 p{
+    color: #7D8589;
+}
+
+/* Neck */
+
+.neck{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.neck1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.neck1 p{
+    color: #5A6473;
+}
+
+.neck1 h1{
+    border-top: 3px solid #000339;
+}
+
+.neck2{
+    display: flex;
+    gap: 50px;
+}
+
+.neck3 button{
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #b1b1b1;
+    cursor: pointer;
+    transform: all .9s ease;
+}
+
+.neck3 button:hover{
+    font-size: 15px;
+}
+
+.neck3 button:active{
+    font-size: 13px;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Chest */
+
+.chest{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #E6F0FF;
+    padding: 60px 180px;
+}
+
+.chest1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chest2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.chest2 p{
+    color: #5A6473;
+}
+
+.chest3 a{
+    color: #0689FF;
+}
+
+.chest4{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Stomach */
+
+.stomach{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 160px;
+}
+
+.stomach1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stomach3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stomach3 h1{
+    color: #000339;
+    font-size: 54px;
+    margin-top: 100px;
+}
+
+.stomach3 span{
+    border-top: 5px solid #000339;
+}
+
+.stomach4{
+    display: flex;
+    justify-content: space-around;
+}
+
+.stomach5 h1{
+    color: #000000;
+    font-size: 60px;
+}
+
+.stomach5 p{
+    color: #7B8087;
+}
+
+/* Hand */
+
+.hand{
+    display: flex;
+    padding: 60px 160px;
+    background-color: #063183;
+    border-radius: 10px;
+}
+
+.hand1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    color: #ebe9e9;
+}
+
+.hand2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 100px;
+}
+
+.hand2 button{
+    padding: 10px 15px;
+    background-color: #fff;
+    border: 1px solid #b1b1b1;
+    cursor: pointer;
+    transform: all .9s ease;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.hand2 button:hover{
+    font-size: 15px;
+}
+
+.hand2 button:active{
+    font-size: 13px;
+    color: #fff;
+    background-color: #000;
+}
+
+/* Leg */
+
+.leg{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 60px 160px;
+}
+
+.leg1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leg2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.leg2 p{
+    color: #7A7A7E;
+}
+
+.leg3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leg3 p{
+    color: #7A7A7E;
+}
